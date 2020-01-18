@@ -1,6 +1,6 @@
 Name:           perl-String-Format
 Version:        1.16
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Sprintf-like string formatting capabilities with arbitrary format definitions
 
 Group:          Development/Libraries
@@ -50,6 +50,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.16-11
+- Mass rebuild 2013-12-27
+
 * Wed Nov 21 2012 Petr Pisar <ppisar@redhat.com> - 1.16-10
 - Specify all dependencies
 
